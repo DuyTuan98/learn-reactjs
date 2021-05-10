@@ -1,0 +1,9 @@
+.album-list {
+    display:flex;
+    
+    list-style-type: none;
+    
+    & > li {
+        padding: 20px
+    }
+}

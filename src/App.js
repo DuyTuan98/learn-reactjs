@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+import TodoList from './features/Todo/components/TodoList';
+import TodoFeature from './features/Todo';
+// import AlbumFeature from './features/Album';
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         Võ Duy Tuấn
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TodoFeature />
+      {/* <AlbumFeature /> */}
     </div>
   );
 }
